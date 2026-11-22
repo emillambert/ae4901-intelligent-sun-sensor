@@ -1,0 +1,10 @@
+* AE4901 one-channel LTspice/ngspice-compatible DC example
+* All LDR physics beyond 10-100 lux is hypothetical extrapolation.
+* Arduino supply +5 V -> Rfixed -> ADC -> GL5537-1 -> GND
+.param LUX=80 R10=25000 GAMMA=0.60 RFIX=30000
+VCC VCC 0 DC 5
+RFIXED VCC ADC {RFIX}
+RLDR ADC 0 {R10*pow(LUX/10,-GAMMA)}
+.op
+.print op V(ADC)
+.end

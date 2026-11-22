@@ -1,0 +1,20 @@
+{
+  "original_archives": 10,
+  "historical_source_entries_in_archives": 86,
+  "historical_source_lines_including_repeated_copies": 10824,
+  "unique_source_files_by_sha256": 58,
+  "unique_source_lines": 4887,
+  "historical_python_lines_with_copies": 10403,
+  "historical_python_lines_deduplicated": 4605,
+  "legacy_arduino_distinct_sketch_lines": [
+    93,
+    103
+  ],
+  "new_arduino_lines": 83,
+  "new_pc_host_lines": 198,
+  "new_normal_runtime_lines": 281,
+  "old_v2_arduino_lines": 103,
+  "arduino_reduction_lines": 20,
+  "arduino_reduction_pct": 19.4,
+  "runtime_status": "prototype not physically verified; not equivalent to full V8 performance"
+}

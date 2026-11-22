@@ -1,0 +1,39 @@
+test_bad_channel_range (test_runtime.RuntimeTests.test_bad_channel_range) ... ok
+test_checksum_rejects_corruption (test_runtime.RuntimeTests.test_checksum_rejects_corruption) ... ok
+test_checksum_roundtrip (test_runtime.RuntimeTests.test_checksum_roundtrip) ... ok
+test_demo_direction (test_runtime.RuntimeTests.test_demo_direction) ... ok
+test_demo_is_not_falsely_control_valid (test_runtime.RuntimeTests.test_demo_is_not_falsely_control_valid) ... ok
+test_missing_boards (test_runtime.RuntimeTests.test_missing_boards) ... ok
+test_one_board_stale (test_runtime.RuntimeTests.test_one_board_stale) ... ok
+test_sequence_reject_duplicate (test_runtime.RuntimeTests.test_sequence_reject_duplicate) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.008s
+
+OK
+BOARD_ID=0 mock syntax check: PASS
+BOARD_ID=1 mock syntax check: PASS
+{
+  "true_sun": [
+    0.50098,
+    -0.30059,
+    0.81158
+  ],
+  "estimated": {
+    "boards_online": [
+      0,
+      1
+    ],
+    "good_channels": 6,
+    "calibration_verified": false,
+    "valid_for_control": false,
+    "status": "CALIBRATION_REQUIRED",
+    "vector": [
+      0.50248,
+      -0.30065,
+      0.81063
+    ],
+    "normalized_fit_residual": 0.00039,
+    "warnings": []
+  }
+}

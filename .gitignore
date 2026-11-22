@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+*.swp
+.vscode/
+.idea/
+*.log
+build/
+dist/
+*.elf
+*.hex
+*.bin
+*.map
+*.o
+# Device data, local calibration products, and generated simulation outputs
+calibration_results/
+data/raw/
+data/processed/
+**/generated/

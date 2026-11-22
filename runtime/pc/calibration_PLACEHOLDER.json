@@ -1,0 +1,130 @@
+{
+  "calibration_verified": false,
+  "timeout_s": 1.0,
+  "min_peak_lux": 5,
+  "warn_residual_fraction": 0.2,
+  "temporal_warning_deg": 25,
+  "temporal_warning_window_s": 1.5,
+  "sensors": [
+    {
+      "id": "0_0",
+      "face": "+X",
+      "board": 0,
+      "fixed_ohms": 30000,
+      "r10_ohms": 25000,
+      "gamma": 0.6,
+      "angular_exponent": 1.0,
+      "background_lux": 0.0
+    },
+    {
+      "id": "0_1",
+      "face": "+X",
+      "board": 1,
+      "fixed_ohms": 30000,
+      "r10_ohms": 25000,
+      "gamma": 0.6,
+      "angular_exponent": 1.0,
+      "background_lux": 0.0
+    },
+    {
+      "id": "1_0",
+      "face": "-X",
+      "board": 0,
+      "fixed_ohms": 30000,
+      "r10_ohms": 25000,
+      "gamma": 0.6,
+      "angular_exponent": 1.0,
+      "background_lux": 0.0
+    },
+    {
+      "id": "1_1",
+      "face": "-X",
+      "board": 1,
+      "fixed_ohms": 30000,
+      "r10_ohms": 25000,
+      "gamma": 0.6,
+      "angular_exponent": 1.0,
+      "background_lux": 0.0
+    },
+    {
+      "id": "2_0",
+      "face": "+Y",
+      "board": 0,
+      "fixed_ohms": 30000,
+      "r10_ohms": 25000,
+      "gamma": 0.6,
+      "angular_exponent": 1.0,
+      "background_lux": 0.0
+    },
+    {
+      "id": "2_1",
+      "face": "+Y",
+      "board": 1,
+      "fixed_ohms": 30000,
+      "r10_ohms": 25000,
+      "gamma": 0.6,
+      "angular_exponent": 1.0,
+      "background_lux": 0.0
+    },
+    {
+      "id": "3_0",
+      "face": "-Y",
+      "board": 0,
+      "fixed_ohms": 30000,
+      "r10_ohms": 25000,
+      "gamma": 0.6,
+      "angular_exponent": 1.0,
+      "background_lux": 0.0
+    },
+    {
+      "id": "3_1",
+      "face": "-Y",
+      "board": 1,
+      "fixed_ohms": 30000,
+      "r10_ohms": 25000,
+      "gamma": 0.6,
+      "angular_exponent": 1.0,
+      "background_lux": 0.0
+    },
+    {
+      "id": "4_0",
+      "face": "+Z",
+      "board": 0,
+      "fixed_ohms": 30000,
+      "r10_ohms": 25000,
+      "gamma": 0.6,
+      "angular_exponent": 1.0,
+      "background_lux": 0.0
+    },
+    {
+      "id": "4_1",
+      "face": "+Z",
+      "board": 1,
+      "fixed_ohms": 30000,
+      "r10_ohms": 25000,
+      "gamma": 0.6,
+      "angular_exponent": 1.0,
+      "background_lux": 0.0
+    },
+    {
+      "id": "5_0",
+      "face": "-Z",
+      "board": 0,
+      "fixed_ohms": 30000,
+      "r10_ohms": 25000,
+      "gamma": 0.6,
+      "angular_exponent": 1.0,
+      "background_lux": 0.0
+    },
+    {
+      "id": "5_1",
+      "face": "-Z",
+      "board": 1,
+      "fixed_ohms": 30000,
+      "r10_ohms": 25000,
+      "gamma": 0.6,
+      "angular_exponent": 1.0,
+      "background_lux": 0.0
+    }
+  ]
+}
